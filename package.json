@@ -1,0 +1,20 @@
+{
+  "name": "ather-2048-game",
+  "version": "1.0.0",
+  "description": "A 2048 Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc ava test/**/*.spec.js --verbose"
+  },
+  "author": "Sameer Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk-pipe": "^3.0.0",
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nyc": "^15.0.1"
+  }
+}
